@@ -1,38 +1,38 @@
 {
   "semantics": [
     {
-      "label": "Question"
+      "label": "Câu hỏi"
     },
     {
-      "label": "Multiple choice type",
+      "label": "Loại nhiều lựa chọn",
       "options": [
         {
-          "label": "Multiple answers"
+          "label": "Nhiều câu trả lời"
         },
         {
-          "label": "Single answer"
+          "label": "Một câu trả lời"
         }
       ]
     },
     {
-      "label": "Answer alternatives",
+      "label": "Các phương án trả lời",
       "entity": "Alternative",
       "field": {
-        "label": "Alternative",
+        "label": "Phương án",
         "fields": [
           {
-            "label": "Text"
+            "label": "Văn bản"
           },
           {
-            "label": "Feedback",
+            "label": "Phản hồi",
             "fields": [
               {
-                "label": "Message displayed if answer is selected",
-                "description": "Message will appear below the answer on \"continue\" if this answer is selected."
+                "label": "Thông điệp hiển thị nếu câu trả lời được chọn",
+                "description": "Thông điệp sẽ hiển thị phía dưới câu trả lời \"tiếp tục\" nếu câu trả lời được chọn."
               },
               {
-                "label": "Message displayed if answer is not selected",
-                "description": "Message will appear below the answer on \"continue\" if this answer is not selected."
+                "label": "Thông điệp hiển thị nếu câu trả lời không được chọn",
+                "description": "Thông điệp sẽ hiển thị phía dưới câu trả lời \"tiếp tục\" nếu câu trả lời không được chọn."
               }
             ]
           }
